@@ -1,7 +1,7 @@
 body { background-color: #d2e2f4; 
       color:#002f64;
       font-family: Arial, Verdana, sans-serif;
-       background-image: url(dark_embroidery.png);}
+       background-image: url(polaroid.png);}
 
 
 h1 { background-color: #002f64; 
@@ -26,7 +26,8 @@ footer {font-size: .70em;
         font-style: italic;
         text-align: center; 
         padding: 10px;
-        color:#ffffff ;}     
+        color:#ffffff;
+        background-color:#002f64; }     
 
 #wrapper {margin-left: auto;
           margin-right: auto;
