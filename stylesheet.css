@@ -1,10 +1,10 @@
 body { background-color: #d2e2f4; 
-      color:#002f64;
+      color:#0053b1;
       font-family: Arial, Verdana, sans-serif;
        background-image: url(polaroid.png);}
 
 
-h1 { background-color: #002f64; 
+h1 { background-color: #0053b1; 
      color: #ffffff; 
      line-height: 200%; 
      font-family: Georgia, "Times New Roman", serif; 
@@ -26,8 +26,12 @@ footer {font-size: .70em;
         font-style: italic;
         text-align: center; 
         padding: 10px;
-        color:#ffffff;
-        background-color:#002f64; }     
+        color:#gray;
+        background-color:#FFFFFF; }   
+
+a[href^="mailto:"]
+{color:black;
+font-size: 1.2em;}       
 
 #wrapper {margin-left: auto;
           margin-right: auto;
