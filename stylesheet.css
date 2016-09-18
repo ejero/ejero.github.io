@@ -1,0 +1,28 @@
+body { background-color: #d2e2f4; 
+      color:#002f64;
+      font-family: Arial, Verdana, sans-serif;}
+
+
+h1 { background-color: #002f64; 
+     color: #d2e2f4; 
+     line-height: 200%; 
+     font-family: Georgia, "Times New Roman", serif; 
+        	}
+
+main {padding:25px;}        
+
+h2 { background-color: #8eb2d8; 
+     color: #002f64; 
+     font-family: Georgia, "Times New Roman", serif; 
+     text-align: center; 
+     font-size: 1.2em;
+     padding-left: 10px;
+     padding-bottom: 5px; }
+
+nav { text-align: center; }
+
+footer {font-size: .70em;
+        font-style: italic;
+        text-align: center; 
+        padding: 10px;}     
+
