@@ -1,16 +1,16 @@
-body { background-color: #ffffcc
+body { background-color: #ffffcc;
 	   color: #330000;
 	   font-family: Verdana, Arial, sans-serif;	 }
 
 h1 { background-color: #ccaa66; 
-     color: 000000; 
+     color: #000000; 
      text-align: center;
      line-height: 200% }
 
 nav { text-align: center; }
 
 footer { background-color: #ccaa66; 
-         color: 000000;
+         color: #000000;
          font-size: .60em;
          font-style: italic;
          text-align: center; }

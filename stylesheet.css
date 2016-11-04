@@ -1,5 +1,5 @@
 body { background-color: #d2e2f4; 
-      color:#0053b1;
+      color: #0053b1;
       font-family: Arial, Verdana, sans-serif;
        background-image: url(polaroid.png);}
 
@@ -26,7 +26,7 @@ footer {font-size: .70em;
         font-style: italic;
         text-align: center; 
         padding: 10px;
-        color:#gray;
+        color: #D3D3D3;
         background-color:#FFFFFF; }   
 
 a[href^="mailto:"]

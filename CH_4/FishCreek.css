@@ -9,16 +9,23 @@ header{ background-color: #6699ff;
 h1 	  { line-height: 200% }
 
 
-nav	  {font-weight: bold; }	
+nav	  {font-weight: bold; 
+	   text-align:center;}	
 
 .category { font-weight: bold:;
 		    background-color: #6699ff;
 		    color: #003366;
-		    font-size:1.1em; }
+		    font-size:1.1em; 
+			text-shadow:1px 1px 1px #666;}
+
+
 footer  { font-size: .70em;
 	      font-style: italic;}		    
 
+#footer-nav {text-align:left;}
 
-#wrapper {margin-left: auto;
-		  margin-right: auto;
-		  width: 80%;}	         
+#wrapper {min-width: 700px;
+	 	 max-width:1024px;}	         
+
+
+#img {align:center;}		  
