@@ -100,7 +100,10 @@ img { border: 0; }
 #mobile { display: none; }
 #desktop {display: inline; }
 
+
+
 @media only screen and (max-width: 1024px;) {
+  
   body {margin: 0px;
         background-image: none;}
 
@@ -108,8 +111,60 @@ img { border: 0; }
             min-width: 0px;
             margin: 0px;
             box-shadow: none; }
-  header {background-image: url(javalogomobile.gif); }
+
+  header {background-image: url(javalogomobile.gif);
+           background-position: center;
+           background-repeat: no-repeat;
+           height: 80px; }
+  nav {float: none;
+       width: auto; 
+       padding-top: 0px;
+       margin-top: 0px; }
+
+  nav li {display: inline-block; }
+
+  nav a {padding: 1em;
+        font-size: 1.3em;
+        width: 8em; 
+        font-weight: bold;
+        border-style: none; }
+
+  nav ul { padding: 0px;
+           margin: 0px; }
+
+  main { padding: 2em; 
+        margin: 0px; 
+        font-size: 90%; }         
+}
 
 
+
+@media only screen and (max-width: 768px) {
+
+  nav a { display: block;
+          padding: 0.2em;
+          width: auto;
+          border-bottom: 1px;
+          border-color: #330000;  
+        }
+
+  nav li { display: block; } 
+
+  h2 {  padding-top: 0.5em;
+        padding-right: 0px;
+        padding-bottom: 0px; 
+        padding-left: 0.5em;
+        margin-right: 0.5em;   }     
+
+  .details { padding-right: 0px; 
+             padding-left: 0px; }
+
+ .floatright { display: none;}
+
+ .floatleft { padding-right: 0.5em;
+              padding-left: 0.5em; }
+#mobile { display: inline; }
+
+#desktop { display: none;  }
 }
 
