@@ -25,7 +25,9 @@ footer  { font-size: .70em;
 #footer-nav {text-align:left;}
 
 #wrapper {min-width: 700px;
-	 	 max-width:1024px;}	         
+	 	 max-width:1024px;
+	 	margin-right: auto;
+	 	margin-left: auto; }	         
 
 
 #img {align:center;}		  
