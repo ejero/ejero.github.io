@@ -38,7 +38,7 @@ main {margin-left: 180px;
 	  padding-bottom: 20px;  }
 
 
-.category { font-weight: bold:;
+.category { font-weight: bold;
 		    background-color: #ffffff;
 		    color: #000066;
 		    font-size:1.1em; 
@@ -129,7 +129,7 @@ nav a { display: block;
 		padding: 0.2em; 
 		font-size: 1.3em; 
 		border-bottom: 1px solid #330000; }
-		
+
 
 nav li { display: block; }
 
