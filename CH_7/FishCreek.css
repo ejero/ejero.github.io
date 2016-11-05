@@ -1,0 +1,64 @@
+header, nav, main, footer {display: block; }
+
+body { background-color: #6699ff;
+	   color: #d5e3ff;
+	   font-family: Verdana, Arial, sans-serif;
+	   background-image:url(gradientblue.jpg);  }
+
+header{ background-color: #000066;
+ 		color: #ffffff; 
+ 		background-image: url(bigfish.gif); 
+ 		background-position: center;
+ 		background-repeat: no-repeat; }	   
+
+h1 	  { line-height: 150%; 
+		font-size:3em;
+		padding: 10px;
+		text-shadow: 3px 3px 3px #cccccc;
+		text-align: center; }
+
+
+nav	  {font-weight: bold; 
+	   float: left;
+	   width:150px; }	
+
+nav ul { list-style-type: none; }
+
+nav a { text-decoration: none; }
+
+nav a:link { color: #3262A3; }	
+
+nav a:visited {color: #6699ff; }
+
+nav a:hover { color: #CCCCCC; }	
+
+main {margin-left: 180px;
+	  padding-right: 20px;
+	  padding-bottom: 20px;  }
+
+
+.category { font-weight: bold:;
+		    background-color: #ffffff;
+		    color: #000066;
+		    font-size:1.1em; 
+			text-shadow:1px 1px 1px #666; }
+
+
+footer  { font-size: .70em;
+	      font-style: italic; 
+	  	  padding: 10px;
+	  	  margin-left: 180px; }		    
+
+#footer-nav {text-align:left; }
+
+#wrapper {min-width: 700px;
+	 	 max-width:1024px;
+	 	background-color: #ffffff;
+	 	color: #000066; }	         
+
+
+#img {align:center;
+	border: none; }	
+
+
+
