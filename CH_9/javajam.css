@@ -112,9 +112,18 @@ td,th { padding: 10px; }
 tr:nth-of-type(odd) { background-color: #ccaa66; }  
 
 
+label { float: left; 
+        display: block; 
+        text-align: right; 
+        width: 8em; 
+       padding-right: auto; }
 
-      
 
+input,textarea { display: block;
+        margin-bottom: 1em;}       
+
+
+#mySubmit {margin-left: 12em;  }             
 
 
 
