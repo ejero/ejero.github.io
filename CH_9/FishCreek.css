@@ -80,6 +80,19 @@ td {border: 1px solid #3262a3;
 		padding:0.5em; } 
 
 
+label { float:left; 
+		display: block; 
+		text-align: right; 
+		width: 8em;
+		padding: auto;}
+
+input, textarea {display: block;
+				 margin-bottom: 1em; }	
+
+#mySubmit { margin-left: 10em; }				 	
+
+
+
 @media only screen and ( max-width: 1024px) {
 
 
