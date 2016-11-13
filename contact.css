@@ -1,0 +1,31 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+h1 { text-align: center;}
+
+label { float: left; 
+        display: block; 
+        text-align: right; 
+        width: 8em; 
+       padding-right: auto; }
+
+
+input,textarea { display: block;
+        margin-bottom: 1em;}       
+
+
+#mySubmit {margin-left: 12em;  }  
+
+form {width: 300px;
+    margin: 0 auto; }
+
+ul li { list-style-type: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;}
+
+footer { text-align: center;
+          padding-top: 0;}
+
