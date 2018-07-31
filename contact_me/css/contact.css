@@ -1,0 +1,190 @@
+/******************** GLOBL STYLES ***********************/
+
+html,body{
+        margin:0;
+        height: 100%;
+        
+}
+
+.content{
+        min-height: 100%;
+}
+
+.content-inside {
+        padding:20px;
+        padding-bottom: 50px;
+}
+
+/******************** CONTACT FORM ***********************/
+/** Design from: https://www.sanwebe.com/2014/08/css-html-forms-designs
+* MIT License
+**/
+.form-style-8{
+        font-family: 'Open Sans Condensed', arial, sans;
+        width: 500px; /*500px;*/
+        padding: 30px;
+        background: #FFFFFF;
+        margin: 50px auto;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+        -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+        -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+    
+    }
+    .form-style-8 h2{
+        background: #4D4D4D;
+        text-transform: uppercase;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #797979;
+        font-size: 18px;
+        font-weight: 100;
+        padding: 20px;
+        margin: -30px -30px 30px -30px;
+    }
+    .form-style-8 input[type="text"],
+    .form-style-8 input[type="date"],
+    .form-style-8 input[type="datetime"],
+    .form-style-8 input[type="email"],
+    .form-style-8 input[type="number"],
+    .form-style-8 input[type="search"],
+    .form-style-8 input[type="url"],
+    .form-style-8 input[type="password"],
+    .form-style-8 textarea,
+    .form-style-8 select
+    {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        display: block;
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        background: transparent;
+        margin-bottom: 10px;
+        font: 16px Arial, Helvetica, sans-serif;
+        height: 45px;
+    }
+    .form-style-8 textarea{
+        resize:none;
+        overflow: hidden;
+    }
+    .form-style-8 button[type="submit"],
+    .form-style-8 input[type="button"],
+    .form-style-8 input[type="submit"]{
+        -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+        -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+        box-shadow: inset 0px 1px 0px 0px #45D6D6;
+        background-color: #2CBBBB;
+        border: 1px solid #27A0A0;
+        display: inline-block;
+        cursor: pointer;
+        color: #FFFFFF;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 14px;
+        padding: 8px 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .form-style-8 input[type="button"]:hover,
+    .form-style-8 input[type="submit"]:hover {
+        background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+        background-color:#34CACA;
+    }
+    
+    
+    
+    /************** MEDIA QUERY FOR CONTACT FORM *************/
+    @media screen and (max-width: 600px){
+        .form-style-8, input[type=submit] {
+            width: auto;
+            margin-top: 20px;   
+        }
+        .form-style-8 h2 {
+            font-size: 30px;
+            text-align: center;
+            text-transform: none;
+        }
+        .form-style-8 input[type="text"]{
+            font-size:20px;
+            opacity: .5;
+        }
+        .form-style-8 input[type="email"]{
+            font-size:20px;
+            opacity: .5;
+        }
+        .form-style-8 input[type="url"]{
+            font-size:20px;
+            opacity: .5;
+        }
+        .form-style-8 input[type="text"]{
+            font-size:20px;
+            opacity: .5;
+        }
+        .form-style-8 textarea{
+            font-size: 20px;
+            opacity: .5;
+        }
+    
+    }
+
+    /***************** NAVBAR *********************/
+
+
+
+nav {
+    text-align: center;
+    background-color: #2a2b2a;
+    position: fixed;
+    top:0;
+    width:100%;
+  }
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:rgb(210, 213, 218)
+}
+
+
+
+    /****************** FOOTER ***********************/
+.social-icons{
+        background-color: #2a2b2a;
+        display:block;
+        text-align: center;
+    }
+.social-icon{
+        width:40px;
+        padding:15px 10px 5px 5px;
+    }
+.social-icons p{
+        margin-bottom: 0;
+    }
+    
+.social-icons p:nth-last-of-type(1){
+        color:#393d41;
+    }
+    
+.social-icons p:nth-last-of-type(2){
+        color:#27A0A0;
+        font-size: 16px;
+    }
+    
+.social-icons a{
+        text-decoration: none;
+    }
+p{
+        padding-top:10px;
+}
+
+.copywright{
+        padding-top:0;
+        margin-top: 10px;
+}
+.home{
+    color: #27A0A0;
+}
