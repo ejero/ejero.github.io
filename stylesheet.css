@@ -1,7 +1,7 @@
 body, html {
 margin:0;
 font:1em "Open Sans", sans-serif; 
-background-image: url(boat.jpg); 
+background-image: url(img/boat.jpg); 
 background-size: cover; 
 background-repeat: no-repeat;
 height: 100%;
