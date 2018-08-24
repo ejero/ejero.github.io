@@ -1,29 +1,28 @@
 body, html {
 margin:0;
 font:1em "Open Sans", sans-serif; 
-background-image: url(img/boat.jpg); 
+background-image: url(img/water.jpg); 
 background-size: cover; 
 background-repeat: no-repeat;
-height: 100%;
+height: 90%;
 }
 
 .wrapper{
-    min-height: 100%;
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -50px;
+    min-height: 26%;
 }
 
 .content {
 padding:30px; }
 
 
-
+h1{
+    text-align: center;
+}
 /************* Navigation Bar ************/
 
 
 nav {
-    text-align: center;
+    text-align: right;
     background-color: #2a2b2a;
     position: fixed;
     top:0;
@@ -32,16 +31,17 @@ nav {
 
 nav a {
   display: inline-block;
-  padding: 15px 20px;
+  padding: 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  color:rgb(210, 213, 218)
+  color:rgb(210, 213, 218);
+  font-size: 10px;
 }
 
 
   /****************** FOOTER ***********************/
-  .social-icons{
+.social-icons{
     background-color: #2a2b2a;
     display:block;
     text-align: center;
@@ -79,9 +79,9 @@ color: #27A0A0;
 }
 
 .container4{
-    height: 10em;
     position: relative;
     color: white;
+    min-height: 100%;
 }
 .container4 h1{
     margin: 0;
@@ -89,5 +89,8 @@ color: #27A0A0;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    color:#85898d;
+    font-family: 'Montserrat', sans-serif;
 }
