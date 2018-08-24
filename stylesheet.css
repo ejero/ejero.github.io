@@ -1,10 +1,10 @@
 body, html {
 margin:0;
 font:1em "Open Sans", sans-serif; 
-background-image: url(img/rocks.jpg); 
+background-image: url(img/water.jpg); 
 background-size: cover; 
 background-repeat: no-repeat;
-height: 80%;
+height: 90%;
 }
 
 .wrapper{
@@ -91,6 +91,6 @@ color: #27A0A0;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 72px;
-    color:#d5dce2;
+    color:#85898d;
     font-family: 'Montserrat', sans-serif;
 }
