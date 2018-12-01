@@ -1,0 +1,5 @@
+#Ignore files_unused folder
+files_unused/
+
+#Ignore readme file
+readme.txt

@@ -1,0 +1,271 @@
+/*
+	Template Name 	: Minimal Coming Soon HTML Template
+	Author 			: Awaiken Theme
+	Author Url 		: https://awaikenthemes.com
+*/
+
+body{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	background: #3dac86;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin:0;
+	font-weight: 700;
+}
+
+img{
+	max-width: 100%;
+}
+
+a:hover{
+	text-decoration: none;
+	outline: 0;
+}
+
+a:focus{
+	text-decoration: none;
+	outline: 0;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#particles-js canvas{
+	display: block;
+}
+
+.comming-soon{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	min-height: 100%;
+	background: -webkit-linear-gradient(left,#3dac86,#337aee);
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+}
+
+.coming-soon-box{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo h1{
+	color: #fff;
+	font-size: 52px;
+	font-weight: 600;
+}
+
+.logo p{
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	font-weight: 300;
+}
+
+.coming-text{
+	padding: 40px 0;
+}
+
+.coming-text h2{
+	font-size: 100px;
+	color: #fff;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.social-link{
+	text-align: center;
+}
+
+.social-link a{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 8px;
+	margin: 0 4px;
+	transition: all 0.4s linear;
+}
+
+.social-link a:hover{
+	background: #fff;
+	color: #3dab87;
+}
+
+.newsletter{
+	max-width: 746px;
+	margin: 40px auto 0;
+}
+
+.newsletter p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5em;
+	letter-spacing: 0.02em;
+}
+
+.newsletter-form{
+	background: rgba(255,255,255,0.1);
+}
+
+.new-text{
+	height: 50px;
+	border: none;
+	display: inline-block;
+	width: 72%;
+	background: none;
+	box-shadow: none;
+	outline: 0;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.new-text::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.new-text::-moz-placeholder {
+	color: #fff;
+}
+
+.new-text:-ms-input-placeholder{
+	color: #fff;
+}
+
+.new-text:-moz-placeholder {
+	color: #fff;
+}
+
+.new-btn{
+	height: 50px;
+	border: none;
+	display: inline-block;
+	margin-left: -5px;
+	width: 28%;
+	background: rgba(255,255,255,0.3);
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	font-weight: 600;
+	outline: 0;
+	transition: all 0.3s linear;
+}
+
+.new-btn .fa{
+	margin-right: 10px;
+}
+
+.new-btn:hover{
+	background: rgba(255,255,255,0.5);
+}
+
+.newsletter-form{
+	margin-top: 30px;
+}
+
+/****************************************
+		Responsive Media Query
+****************************************/
+
+@media only screen and (max-width:981px){
+	.coming-text{
+		padding: 30px 0;
+	}
+	
+	.coming-text h2{
+		font-size: 56px;
+	}
+	.social-link a{
+		width: 36px;
+		height: 36px;
+		padding-top: 6px;
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width:568px){
+	.new-text{
+		display: block;
+		width: 100%;
+		background: rgba(255,255,255,0.1);
+		margin-bottom: 20px;
+	}
+	
+	.newsletter-form{
+		background: none;
+	}
+	
+	.new-btn{
+		width: 160px;
+	}
+	
+	.comming-soon {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		min-height: 100%;
+		background: -webkit-linear-gradient(top,#3dac86,#337aee);
+	}
+}
+
+@media only screen and (max-width:480px){
+	.logo h1{
+		font-size: 30px;
+	}
+	
+	.logo p{
+		font-size: 10px;
+	}
+	
+	.coming-text{
+		padding: 20px 0 30px;
+	}
+	
+	.newsletter p{
+		font-size: 12px;
+	}
+	
+	.coming-text h2 {
+		font-size: 32px;
+	}
+	
+	.new-text{
+		height: 40px;
+	}
+	
+	.new-btn{
+		height: 40px;
+	}
+}
+
+@media only screen and (max-width:360px){
+	
+}
